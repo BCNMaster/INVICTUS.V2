@@ -61,4 +61,18 @@ export default function AITutor({ subject }) {
           <input
             type="text"
             value={userInput}
-            onChange={(e) => setUserInput(e.target.value
+onChange={(e) => setUserInput(e.target.value)}
+            placeholder="Ask anything about your learning path..."
+            className="flex-1 p-4 rounded-lg bg-white/10 backdrop-blur-lg border border-white/20 text-white"
+          />
+          <button
+            type="submit"
+            className="px-6 py-4 rounded-lg bg-purple-500 hover:bg-purple-600 text-white font-medium"
+          >
+            Send
+          </button>
+        </form>
+      </div>
+    </div>
+  );
+}
