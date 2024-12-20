@@ -15,10 +15,6 @@ export default function Home() {
 
   return (
     <div className="relative min-h-screen overflow-hidden bg-[#1a1d23]">
-      {/* Gradient Orbs */}
-      <div className="absolute top-0 left-0 w-[800px] h-[800px] bg-purple-500/30 rounded-full blur-[120px] -translate-x-1/2 -translate-y-1/2" />
-      <div className="absolute bottom-0 right-0 w-[600px] h-[600px] bg-blue-500/20 rounded-full blur-[100px] translate-x-1/2 translate-y-1/2" />
-
       {/* Content */}
       <div className="relative z-10">
         <header className="px-8 py-6">
